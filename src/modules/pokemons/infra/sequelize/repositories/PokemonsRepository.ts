@@ -9,7 +9,7 @@ import { PokemonAttributes } from "../../../repositories/PokemonAttributes";
 class PokemonsRepository implements IPokemonsRepositoy {
     private repository: Repository<Pokemon>
 
-    constructor(sequi: Sequelize) {
+    constructor() {
         this.repository = Pokemon;
     }
 
