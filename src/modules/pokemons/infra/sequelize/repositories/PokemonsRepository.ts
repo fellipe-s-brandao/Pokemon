@@ -37,10 +37,13 @@ class PokemonsRepository implements IPokemonsRepositoy {
     }
 
     async findById(id: number): Promise<PokemonAttributes> {
-        const pokemon = await this.repository.findByPk(id, {
-            attributes: ['id', 'tipo', 'treinador', 'nivel']
+        const pokemon = await this.repository.findOne({
+            attributes: ['id', 'tipo', 'treinador', 'nivel'],
+            where: {
+                id
+            }
         });
-        return pokemon ? pokemon : null;
+        return pokemon ? pokemon.dataValues : null;
     }
 
     async findAll(): Promise<PokemonAttributes[]> {
