@@ -1,6 +1,5 @@
 import { ICreatePokemonDTO } from "../dtos/ICreatePokemonDTO";
 import { IUpdatePokemonDTO } from "../dtos/IUpdatePokemonDTO";
-import { Pokemon } from "../infra/sequelize/entities/Pokemon";
 import { PokemonAttributes } from "./PokemonAttributes";
 
 interface IPokemonsRepositoy {

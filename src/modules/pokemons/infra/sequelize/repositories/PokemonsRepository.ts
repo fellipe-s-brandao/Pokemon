@@ -15,7 +15,7 @@ class PokemonsRepository implements IPokemonsRepositoy {
 
     async create(data: ICreatePokemonDTO): Promise<PokemonAttributes> {
         const pokemon = await this.repository.create(data);
-        return pokemon ? pokemon : null;
+        return pokemon ? pokemon.dataValues : null;
     }
 
     async update(id: number, data: IUpdatePokemonDTO): Promise<number[]> {
