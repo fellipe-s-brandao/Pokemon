@@ -19,3 +19,6 @@
 * Clean Architecture
 * Documentação no Swagger
 * Testes unitários com Jest
+
+## Documentação
+* Ao iniciar o servidor automaticamente é levantado uma pagina do Swagger com a documentação da api, onde é possível fazer testes nas rotas.
