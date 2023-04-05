@@ -6,7 +6,7 @@
 * O servidor será levantado na porta 3334
 
 ## Para iniciar o Banco de dados:
-* O docker-composer deve estar instalado na máquina e em seguida rode o comando `docker-composer up -d`
+* O docker-composer deve estar instalado na máquina e em seguida rode o comando `docker-compose up -d`
 
 ## Para rodar os Testes Unitários:
 * `npm run test` inicia todos os testes do useCases.
