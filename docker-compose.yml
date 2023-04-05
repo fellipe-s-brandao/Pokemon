@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+    database_ponto:
+        image: postgres
+        container_name: database_jazida
+        restart: always
+        ports:
+          - 5432:5432
+        environment:
+          - POSTGRES_USER=admin
+          - POSTGRES_PASSWORD=Admin#123@
+          - POSTGRES_DB=jazida
+        volumes:
+            - pgdata:/data/postgres
+
+volumes:
+    pgdata:
+        driver: local

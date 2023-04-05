@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"group": "rebuild",
+			"problemMatcher": [],
+			"label": "npm: start",
+			"detail": "ts-node-dev -r tsconfig-paths/register --inspect=0.0.0.0:9229 --transpile-only --ignore-watch node_modules --respawn src/infra/http/server.ts"
+		}
+	]
+}
