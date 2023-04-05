@@ -80,6 +80,10 @@ class PokemonsUseCases {
     }
 
     async batalhar(idPokemon1: number, idPokemon2: number): Promise<IResponseBatalhaPokemon> {
+        if(!idPokemon1 && !idPokemon2) {
+            throw new AppError("Informe o id dos pokemons");
+        }
+
         const pokemon1 = await this.pokemonsRepository.findById(idPokemon1);
 
         if (!pokemon1) {
