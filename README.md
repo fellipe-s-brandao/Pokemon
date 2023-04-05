@@ -4,6 +4,7 @@
 * `npm install` para instalar as depêndencias do projeto.
 * `npm run start` para iniciar o projero.
 * O servidor será levantado na porta 3334
+* Link api Link: http://pokemon.fellipebrandao.com
 
 ## Para iniciar o Banco de dados:
 * O docker-composer deve estar instalado na máquina e em seguida rode o comando `docker-compose up -d`
@@ -22,3 +23,8 @@
 
 ## Documentação
 * Ao iniciar o servidor automaticamente é levantado uma pagina do Swagger com a documentação da api, onde é possível fazer testes nas rotas.
+* Link: http://pokemon.fellipebrandao.com/api-docs/
+
+## Hospedagem
+* Servidor Oracle
+* Build do Typescritp e pm2 para rodar o server
