@@ -3,7 +3,7 @@
 ## Para rodar o Back-end:
 * `npm install` para instalar as depêndencias do projeto.
 * `npm run start` para iniciar o projero.
-* O servidor será levantado na porta 3334
+* O servidor será criado na porta 3334
 * Link api Link: http://pokemon.fellipebrandao.com
 
 ## Para iniciar o Banco de dados:
@@ -27,4 +27,4 @@
 
 ## Hospedagem
 * Servidor Oracle
-* Build do Typescritp e pm2 para rodar o server
+* Build do Typescritp e pm2
