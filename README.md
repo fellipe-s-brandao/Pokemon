@@ -4,7 +4,7 @@
 * `npm install` para instalar as depêndencias do projeto.
 * `npm run start` para iniciar o projero.
 * O servidor será criado na porta 3334
-* Link api Link: http://pokemon.fellipebrandao.com
+* Link api: http://pokemon.fellipebrandao.com
 
 ## Para iniciar o Banco de dados:
 * O docker-composer deve estar instalado na máquina e em seguida rode o comando `docker-compose up -d`
