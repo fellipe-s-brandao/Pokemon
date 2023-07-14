@@ -1,5 +1,5 @@
 {
-    "name": "jazida",
+    "name": "pokemon",
     "version": "1.0.0",
     "main": "src/infra/http/server.ts",
     "license": "MIT",

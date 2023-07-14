@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "Jazida Pokemon Documentation",
+        "title": "API Pokemon Documentation",
         "description": "This is an API Pokemon",
         "version": "1.0.0",
         "contact": {

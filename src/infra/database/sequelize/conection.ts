@@ -8,12 +8,11 @@ import { Sequelize } from 'sequelize-typescript';
 async function conection() {
 
     try {
-        
         const conection = new Sequelize({
             dialect: 'postgres',
             host: 'localhost',
             port: 5432,
-            database: 'jazida',
+            database: 'pokemon',
             username: 'admin',
             password: 'Admin#123@',
             logging: false
