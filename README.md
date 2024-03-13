@@ -1,4 +1,4 @@
-# Pokemon
+# Batalha Pokemon
 
 ## Para rodar o Back-end:
 * `npm install` para instalar as depêndencias do projeto.
